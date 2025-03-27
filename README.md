@@ -41,6 +41,7 @@ The primary goal of this project is to analyze the mortality rates and the distr
 2. **Data Visualization Libraries:**
    - **Matplotlib & Seaborn:** For creating static visualizations.
    - **Plotly:** For creating interactive visualizations that can be displayed on dashboards.
+   - **Tableau:** For creating interactive visualizations that can be displayed on dashboards.
 
 3.
 
@@ -67,6 +68,8 @@ The dataset includes:
 - **Population Data:** Population estimates for each state.
 - **Hospital Availability Data:** Number of hospitals in each state.
 - **Mortality Rate Data:** Deaths per 100,000 people per state.
+- **Merged Mortality Data:** Consolidated information i.e State, Leading Causes, Total Deaths.Total Population, Total Hospitals 
+- **Filtered Mortality Data:** Total Deaths.Total Population, Total Hospitals 
 
  ## Data Sources:
    - **CDC Mortality Data:** For mortality statistics.
@@ -86,13 +89,15 @@ The dataset includes:
 
 ## [Packages Used](#packages-used)
 - **pandas:** Data manipulation and cleaning.
-- **matplotlib & seaborn:** Data visualization.
+- **matplotlib & seaborn:** Data visualization.git status
 - **numpy:** Numerical analysis.
 - **scipy:** Statistical analysis.
+-**Tableau book** Microsoft Excel, Pivot tables for merging and filtering data
 
 ## Reporting Tools:**
-   - **Jupyter Notebooks:** For documenting code, visualizations, and analysis in an interactive environment.
-   - **Microsoft PowerPoint or Google Slides:** For presentations to communicate findings to stakeholders.
+   - **Jupyter Notebooks :** For documenting code, visualizations, and analysis in an interactive environment.
+    - **Tableau book :** visualizations, and analysis in an interactive environment
+    - **Microsoft Excel :** Pivot tables for merging and filtering data
 
 ## [Analysis and Insights](#analysis-and-insights)
 ### [Findings](#findings)
