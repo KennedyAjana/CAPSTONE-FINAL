@@ -4,49 +4,20 @@
 
 # Table of Contents
 - [Project Overview]
-- [Problem Statement](#problem-statement)
-- [Purpose](#purpose)
-- [Dataset](#dataset)
-- [Target Audience](#target-audience)
-- [File Formats](#file-formats)
-- [Packages Used](#packages-used)
-- [Analysis and Insights](#analysis-and-insights)
-  - [Findings](#findings)
-  - [Supporting Data](#supporting-data)
-- [Conclusion and Recommendations](#conclusion-and-recommendations)
-  - [Conclusion](#conclusion)
-  - [Recommendations](#recommendations)
-- [Author](#author)
+- [Problem Statement]
+- [Purpose]]
+- [Dataset]
+- [Target Audience]
+- [File Formats]
+- [Packages Used]
+- [Analysis and Insights]
+  - [Findings]
+  - [Supporting Data]
+- [Conclusion and Recommendations]
+  - [Conclusion]
+  - [Recommendations]
+- [Author]
 
-
-### Project Overview:
-
-The primary goal of this project is to analyze the mortality rates and the distribution of medical facilities across the United States, with the ultimate aim of identifying regions in need of improved healthcare accessibility. The specific features integrated into the project will include:
-
-- **Data Collection:** Gathering mortality data from reputable sources like the Centers for Disease Control and Prevention (CDC) and healthcare facility information from relevant databases.
-- **Data Cleaning and Preprocessing:** Ensuring that the data is in a usable format, including handling missing values and outliers.
-- **Data Analysis:** Identifying leading causes of mortality, correlation between mortality rates and healthcare accessibility, and regional disparities.
-- **Data Visualization:** Creating interactive and static visualizations to convey findings; examples include bar charts, scatter plots, heatmaps, and pie charts.
-- **Reporting:** Compiling recommendations for stakeholders aimed at addressing healthcare gaps based on the findings.
-
-
-
-### Technical Insight:
-
-**Tools & Technologies:**
-
-1. **Programming Language:** 
-   - **Python:** Main programming language for data analysis and visualization using libraries such as Pandas, NumPy, Matplotlib, and Seaborn.
-
-2. **Data Visualization Libraries:**
-   - **Matplotlib & Seaborn:** For creating static visualizations.
-   - **Plotly:** For creating interactive visualizations that can be displayed on dashboards.
-   - **Tableau:** For creating interactive visualizations that can be displayed on dashboards.
-
-3.
-
-
-This project plan serves as a roadmap for analyzing mortality rates and healthcare accessibility in the United States. By following this structured approach, I aim to ensure thoroughness in data analysis, clarity in reporting, and effectiveness in communicating insights to stakeholders. I look forward to mentor feedback to refine the plan further.
 
 # US Mortality and Healthcare Service Analysis
 
@@ -72,8 +43,9 @@ The dataset includes:
 - **Filtered Mortality Data:** Total Deaths.Total Population, Total Hospitals 
 
  ## Data Sources:
-   - **CDC Mortality Data:** For mortality statistics.
-   - **HRSA (Health Resources and Services Administration):** For obtaining data on hospitals and healthcare facilities
+ - **https://www.kaggle.com/datasets/cms/hospital-general-information**
+   - **https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htmCDC For mortality statistics**
+   - **https://www.kaggle.com/datasets/dataanalyst001/us-states-ranked-by-population-2024** 
 
 ## [Target Audience](#target-audience)
 - **Policymakers:** Ensure fair distribution of medical resources.
@@ -92,12 +64,14 @@ The dataset includes:
 - **matplotlib & seaborn:** Data visualization.git status
 - **numpy:** Numerical analysis.
 - **scipy:** Statistical analysis.
--**Tableau book** Microsoft Excel, Pivot tables for merging and filtering data
+-**Tableau book** Visualizations, merging and filtering data
+-**Microsoft Excel**, Pivot tables for merging and filtering data
 
 ## Reporting Tools:**
    - **Jupyter Notebooks :** For documenting code, visualizations, and analysis in an interactive environment.
     - **Tableau book :** visualizations, and analysis in an interactive environment
-    - **Microsoft Excel :** Pivot tables for merging and filtering data
+    - **Microsoft Excel :** Pivot tables for merging and filtering data.
+- **https://public.tableau.com/app/profile/kennedy.ajana/viz/Book1_17431695206020/MergedMortality?publish=yes**
 
 ## [Analysis and Insights](#analysis-and-insights)
 ### [Findings](#findings)

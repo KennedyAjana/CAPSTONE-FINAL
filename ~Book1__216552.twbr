@@ -1392,8 +1392,8 @@
       <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
       <column caption='Leading_Causes_of_Death__United_States.csv' datatype='table' name='[__tableau_internal_object_id__].[Leading_Causes_of_Death__United_States.csv_AAE02D92E1CC4683A228AC939211A8AF]' role='measure' type='quantitative' />
       <column caption='Merged Mortality population.csv' datatype='table' name='[__tableau_internal_object_id__].[Merged Mortality population.csv_18AE0DCF0B2B4037A7D5E108EA35FF54]' role='measure' type='quantitative' />
-      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='false' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Kenni/AppData/Local/Temp/TableauTemp/#TableauTemp_1aqf19316wv98v16hufz91338q4f.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/27/2025 01:53:16 PM' username='tableau_internal_user'>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Kenni/AppData/Local/Temp/TableauTemp/#TableauTemp_1twdozx1gp7djx1es9d75195hc5c.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/28/2025 01:03:34 PM' username='tableau_internal_user'>
           <relation type='collection'>
             <relation name='Merged Mortality population.csv_18AE0DCF0B2B4037A7D5E108EA35FF54' table='[Extract].[Merged Mortality population.csv_18AE0DCF0B2B4037A7D5E108EA35FF54]' type='table' />
             <relation name='Leading_Causes_of_Death__United_States.csv_AAE02D92E1CC4683A228AC939211A8AF' table='[Extract].[Leading_Causes_of_Death__United_States.csv_AAE02D92E1CC4683A228AC939211A8AF]' type='table' />
@@ -2128,8 +2128,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='9' param='vert' type-v2='layout-flow' w='97538' x='1231' y='998'>
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='11' param='vert' type-v2='layout-flow' w='97538' x='1231' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Merged Mortality' w='72923' x='1231' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2200,8 +2200,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='9' param='vert' type-v2='layout-flow' w='97538' x='1231' y='998'>
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='11' param='vert' type-v2='layout-flow' w='97538' x='1231' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Deaths per State' w='72923' x='1231' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2258,8 +2258,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='5' param='vert' type-v2='layout-flow' w='97538' x='1231' y='998'>
+            <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='7' param='vert' type-v2='layout-flow' w='97538' x='1231' y='998'>
                 <zone fixed-size='280' h='98004' id='3' is-fixed='true' name='Consolidated' w='97538' x='1231' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2336,7 +2336,7 @@
     </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='1.25' source-height='63'>
-    <window class='worksheet' name='Merged Mortality'>
+    <window class='worksheet' maximized='true' name='Merged Mortality'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2458,7 +2458,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='3' />
+      <active id='-1' />
       <simple-id uuid='{97EC6BC9-687D-4611-80A0-6217360E9764}' />
     </window>
     <window class='worksheet' name='Cancer totals per State'>
@@ -2494,7 +2494,7 @@
       <active id='-1' />
       <simple-id uuid='{63DEEE26-73AF-475D-84B4-65AE12932B14}' />
     </window>
-    <window class='dashboard' maximized='true' name='Story 2'>
+    <window class='dashboard' name='Story 2'>
       <viewpoints />
       <active id='5' />
       <simple-id uuid='{EFF4A35A-D020-4860-AA90-8BEEBD66A5D4}' />
